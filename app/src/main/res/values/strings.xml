@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">firebase-crash-demo</string>
+    <string name="checkbox_catch_error">Catch Error</string>
+    <string name="button_text_crash">Crash app</string>
 </resources>
