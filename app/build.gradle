@@ -22,7 +22,11 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
+    // appcompat dependencies
     compile 'com.android.support:appcompat-v7:24.0.0'
+
+    // firebase crash dependency
+    compile 'com.google.firebase:firebase-crash:9.4.0'
 
     // testing dependencies
     testCompile 'junit:junit:4.12'
@@ -30,3 +34,5 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 }
+
+apply plugin: 'com.google.gms.google-services'
