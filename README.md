@@ -14,7 +14,7 @@ There are 2 branches:
   1. Checkout the [completed](https://github.com/segunfamisa/firebase-crash-demo/tree/completed) branch.
   2. Log on to the [Firebase console](https://console.firebase.google.com) and create or import a new project.
   3. Enable Firebase Crash reporting and download the `google-services.json` file from the console
-  and add it to the app-module root. `<app-module>/google-services.json`
+  and add it to the app-module root. `<root-project>/<app-module>/google-services.json`
 
 # License
 MIT License
